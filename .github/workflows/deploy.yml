@@ -1,9 +1,9 @@
-name: Deploy Larris Staging Site
+name: Deploy Ardian Pradana Theme to Live Site
 
 on:
   push:
     branches:
-      - staging
+      - main
 
 jobs:
   web-deploy:
@@ -20,4 +20,4 @@ jobs:
           remote-user: ${{ secrets.REMOTE_USER }}
           private-ssh-key: ${{ secrets.SSH_KEY }}
           ssh-port: ${{ secrets.SSH_PORT }}
-          destination-path: ${{ secrets.STAGING_SITE_PATH }}
+          destination-path: ${{ secrets.LIVE_SITE_PATH }}
