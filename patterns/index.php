@@ -57,7 +57,7 @@
 <!-- /wp:query -->
 
 <!-- wp:paragraph {"align":"right","style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p class="has-text-align-right" style="margin-top:var(--wp--preset--spacing--40)"><a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>">View all →</a></p>
+<p class="has-text-align-right" style="margin-top:var(--wp--preset--spacing--40)"><a href="<?php echo esc_url( home_url( '/posts/' ) ); ?>">View all →</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
