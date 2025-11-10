@@ -39,9 +39,12 @@ a:hover {
     .wp-block-navigation__responsive-dialog {
     padding: 20px;
     font-size: 18px;
-
    
-}
+    }
+
+   .wp-block-navigation__responsive-container-close {
+      margin: 20px 20px 0 0;
+    }
   
     
 }
