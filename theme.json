@@ -30,12 +30,17 @@
 					"color": "#475569",
 					"name": "Dark Gray",
 					"slug": "dark"
+				},
+				{
+					"color": "#0c1220",
+					"name": "Dark blue",
+					"slug": "darkblue"
 				}
 			]
 		},
 		"layout": {
-			"contentSize": "720px",
-			"wideSize": "1180px"
+			"contentSize": "960px",
+			"wideSize": "1100px"
 		},
 		"spacing": {
 			"units": [
@@ -206,32 +211,167 @@
 					"fontFamily": "Inter, sans-serif",
 					"name": "Inter",
 					"slug": "inter"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Serif 4\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/source-serif-4/source-serif-4-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Source Serif 4\", serif",
+					"name": "Source Serif 4",
+					"slug": "source-serif-4"
 				}
 			],
 			"fontSizes": [
 				{
-					"name": "S",
-					"size": "clamp(0.875rem, 0.82rem + 0.2vw, 1rem)",
-					"slug": "s"
+					"name": "Small",
+					"size": "0.8rem",
+					"slug": "sm"
 				},
 				{
-					"name": "M",
-					"size": "clamp(1.25rem, 0.94rem + 0.3vw, 1.3rem)",
-					"slug": "m"
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "md"
 				},
 				{
-					"name": "L",
-					"size": "clamp(1.25rem, 1.1rem + 0.7vw, 1.75rem)",
-					"slug": "l"
+					"name": "Large",
+					"size": "1.875rem",
+					"slug": "lg"
 				},
 				{
 					"name": "XL",
-					"size": "clamp(1.75rem, 1.45rem + 1.5vw, 2.75rem)",
+					"size": "clamp(1.25rem, 1.25rem + ((1vw - 0.2rem) * 0.455), 1.5rem)",
 					"slug": "xl"
 				},
 				{
 					"name": "XXL",
-					"size": "clamp(2.25rem, 1.7rem + 2.75vw, 4rem)",
+					"size": "clamp(28px, 0.5rem + 5vw ,3.75rem)",
 					"slug": "xxl"
 				}
 			]
@@ -239,11 +379,26 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"blocks": {
+			"core/post-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--lg)"
+				}
+			}
+		},
 		"color": {
-			"background": "var(--wp--preset--color--tertiary)",
+			"background": "#ffffff",
 			"text": "var(--wp--preset--color--dark)"
 		},
 		"elements": {
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--lg)",
+					"fontStyle": "normal",
+					"fontWeight": "800",
+					"lineHeight": "1.2"
+				}
+			},
 			"heading": {
 				"color": {
 					"text": "var(--wp--preset--color--primary)"
@@ -251,13 +406,17 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--tertiary)"
+					"text": "var(--wp--preset--color--primary)"
 				}
 			}
 		},
+		"spacing": {
+			"blockGap": "0px"
+		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--inter)",
-			"fontSize": "var(--wp--preset--font-size--m)"
+			"fontSize": "var(--wp--preset--font-size--md)",
+			"lineHeight": 1.6
 		}
 	},
 	"templateParts": [

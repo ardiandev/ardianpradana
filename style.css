@@ -1,16 +1,56 @@
 /*
 Theme Name: ArdianPradana
-Theme URI: 
+Theme URI:
 Author: Ardian Pradana
-Author URI: 
-Description: 
+Author URI:
+Description:
 Requires at least: 7.0
 Tested up to: 7.0
 Requires PHP: 5.7
-Version: 
+Version:
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ardianpradana
-Tags: 
+Tags:
 */
 
+
+.project-separator {
+    border: 0;
+    height: 1px;
+}
+
+.taxonomy-project_tag.wp-block-post-terms a {
+    background-color: var(--wp--preset--color--light);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.taxonomy-project_category a, .wp-block-post-title a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.taxonomy-project_category a:hover , .wp-block-post-title a:hover {
+    text-decoration: underline;
+}
+
+.taxonomy-project_tag.wp-block-post-terms {
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.taxonomy-project_tag .wp-block-post-terms__separator {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .project-separator {
+    display: none;
+}
+
+
+}
