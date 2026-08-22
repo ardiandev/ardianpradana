@@ -54,3 +54,16 @@ Tags:
 
 
 }
+
+
+.wp-block-page-list {
+    counter-reset: menu-counter;
+}
+
+.wp-block-page-list > li {
+    counter-increment: menu-counter;
+}
+
+.wp-block-page-list > li > a::before {
+    content: counter(menu-counter) ". ";
+}
